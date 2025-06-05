@@ -1,0 +1,54 @@
+/* Header styling starts here */
+header {
+  height: 120px;
+  margin-top: 20px;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  left: 10rem;
+}
+
+@media (max-width: 1000px) {
+  .nav_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 0;
+  }
+}
+
+.links_container #nav_links {
+  display: flex;
+  gap: 30px;
+}
+
+button {
+  border: none;
+  padding: 20px;
+  background-color: white;
+  font-size: large;
+  width: 120px;
+}
+
+.auth_button {
+  background-color: #e94339;
+  color: white;
+  border-radius: 50px;
+}
+
+@media (max-width: 1000px) {
+  .auth_button {
+    padding: 10px;
+  }
+
+  .auth_button:hover {
+    background-color: #d07975;
+  }
+}
+/* Header styling ends here */
