@@ -1,6 +1,6 @@
 import "./styles/Header.css";
 
-import Logo from "../assets/🍕.png";
+import Logo from "../assets/pizza.png";
 
 const Header = () => {
   return (
